@@ -1,0 +1,123 @@
+*{
+    font-family: Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background: #f2ebdf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.esquerda{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.esquerda > h1{
+    font-size: 3vw;
+    color: #537345;
+}
+
+.direita{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+
+.caixa-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #b4bfa3;
+    border-radius: 10px;
+}
+
+.caixa-login > h1{
+    color: #537345;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 600;
+}
+
+.text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.text > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #f2ebdf;
+    font-size: 12pt;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.text > input::placeholder{
+    color: #537345;
+}
+
+.text > label{
+    margin-bottom: 10px;
+}
+
+.botao-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: #537345;
+    color: #b4bfa3;
+}
+
+.logo{
+    width: 35vw;
+}
+
+.cad{
+    margin: 1px;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #537345;
+}
+
+.rec{
+    margin: 5px;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #537345;
+}

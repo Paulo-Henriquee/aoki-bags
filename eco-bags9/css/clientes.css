@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f6f6f6;
+  font-family: sans-serif;
+}
+
+header {
+  background: #537345;
+    color: white;
+    font-size: 16px;
+    padding: 10px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+            align-items: center;
+}
+
+header a {
+ padding-left: 15px;
+  float: left; /* Move a imagem para a esquerda */
+  margin-right: 20px; /* Espaçamento entre a imagem e o texto */
+}
+
+header a img {
+    width: 10vw; /* Defina o tamanho da imagem para 40x40 pixels */
+  height: 10vw;
+}
+
+header h1 {
+  flex: 1; /* Ocupa o espaço restante e centraliza o texto */
+  text-align: center;
+}
+
+.bt-sair {
+  color: #537345;
+    background-color: #b4bfa3;
+  border: solid;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right; /* Posiciona o botão no canto direito da tela */
+}
+
+.bt-sair:hover {
+  background: #32631f;
+    color: #b9d491;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: #f6f6f6;
+}
+
+table tbody tr:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+table tbody tr:nth-child(even) {
+  background: #e0e0e0;
+}
+
+table tbody tr:last-child {
+  border: 0;
+}
+
+table tbody tr td {
+  padding: 15px 10px;
+}
+
+input[type="text"] {
+  width: 30%; /* Defina a largura do input como 100% da largura da tabela */
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background: #537345;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}

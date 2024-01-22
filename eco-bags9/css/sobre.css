@@ -1,0 +1,48 @@
+*{
+    font-family: Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.main-sobre{
+    width: 100vw;
+    height: 100vh;
+    background: #f2ebdf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.esquerda{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.esquerda > h1{
+    font-size: 3vw;
+    color: #537345;
+}
+
+.logo{
+    width: 35vw;
+}
+
+.sobre-nos {
+    padding: 20px;
+    text-align: center;
+}
+
+.sobre-nos h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.sobre-nos p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}

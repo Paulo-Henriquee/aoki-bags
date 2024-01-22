@@ -1,0 +1,174 @@
+
+:root{
+    --verde-escuro: #537345;
+    --verde-claro: #678c56;
+    --verdin: #b4bfa3;
+    --bege: #f2ebdf;
+    --preto: #0d0d0d; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+
+.logo img {
+    width: 100px; 
+    height: auto;
+}
+
+.sacola{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 30px;
+}
+
+.sacola img{
+    width: 3rem; 
+    height: auto;
+}
+
+.banner{
+    width: 100%
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+header {
+    background-color: var(--verde-escuro);
+    color: var(--bege);
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--bege);
+    font-weight: bold;
+}
+
+.imagem-destaque{
+    width: 16rem;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 10px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.price {
+    font-weight: bold;
+    color: var(--preto);
+    margin-top: 10px;
+}
+
+.buy-button {
+    background-color: var(--verde-escuro);
+    color: var(--bege);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.contato {
+    background-color: var(--bege);
+    padding: 1em;
+}
+
+.contato__titulo,
+.contato__texto {
+    background: var(--verde-claro);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contato__titulo {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contato__texto {
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+.contato__email {
+    padding: 1em;
+    border: 1px solid var(--verde-escuro);
+    border-radius: 24px;
+    width: 90%;
+    color: var(--verde-escuro);
+}
+
+.contato__email::placeholder {
+    /* font-family: var(); */
+    color: var(--verde-escuro);
+}
+
+/* #sobre {
+    padding: 20px;
+} */
+
+#contato {
+    /* padding: 20px 0; */
+    background-color: var(--verde-escuro);
+    color: var(--bege);
+    text-align: center;
+    padding: 40px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: var(--verde-escuro);
+    color: var(--bege);
+}
+
+@media screen and (max-width: 768px) {
+    .products {
+        flex-direction: column;
+    }
+
+    .product {
+        width: 100%;
+    }
+}
